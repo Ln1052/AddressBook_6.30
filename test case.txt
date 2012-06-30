@@ -1,0 +1,115 @@
+Please input the command: 
+add
+name: 
+xiaoming
+mobile: 
+18888888888
+address: 
+xiaoming jia
+address entry added
+
+add
+name: 
+xiaoqiang
+mobile: 
+1999999999
+address: 
+xiaoqiang jia
+address entry added
+
+search
+by(name|mobile|address): name
+name: 
+xiaoqiang
+There are 1 records matched!
+
+search result 1 :
+name: xiaoqiang
+mobile: 1999999999
+address: xiaoqiang jia
+
+add   
+name: 
+xiaolan
+mobile: 
+1777777777
+address: 
+xiaoming jia
+address entry added
+
+search
+by(name|mobile|address): address
+address: 
+xiaoming jia
+There are 2 records matched!
+
+search result 1 :
+name: xiaoming
+mobile: 18888888888
+address: xiaoming jia
+
+search result 2 :
+name: xiaolan
+mobile: 1777777777
+address: xiaoming jia
+
+delete
+by(name|mobile|address): mobile
+mobile: 
+17777777777
+0 address entries deleted
+
+delete              
+by(name|mobile|address): mobile
+mobile: 
+1777777777
+1 address entries deleted
+
+delete
+by(name|mobile|address): name
+name: 
+xiaoming
+1 address entries deleted
+
+delete 
+by(name|mobile|address): address
+address: 
+xiaoqiang jia
+1 address entries deleted
+
+delete
+by(name|mobile|address): name
+name: 
+xiao
+No record
+0 address entries deleted
+
+search 
+by(name|mobile|address): name
+name: 
+xiao
+No record
+There are 0 records matched!
+
+!help
+Help message: 
+You could use these commands(add, search, delete, !help) 			to manipulate the address message.
+and the command !quit to exit.
+
+remove
+Help message: 
+You could use these commands(add, search, delete, !help) 			to manipulate the address message.
+and the command !quit to exit.
+
+add
+name: 
+new
+mobile: 
+12345678910
+address: 
+ericsson corp
+address entry added
+
+!quit
+
+
